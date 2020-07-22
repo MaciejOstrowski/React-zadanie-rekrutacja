@@ -1,11 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css';
+import './index.css'
+import "antd/dist/antd.css"
 import App from './App'
-import { Provider } from 'react-redux';
+import { Provider } from 'react-redux'
 import * as serviceWorker from './serviceWorker'
 import { createStore, combineReducers, compose } from 'redux'
-import { listOfProductsReducer } from './redux/reducers/listOfProducts';
+import { listOfProductsReducer } from './redux/reducers/listOfProducts'
 
 const composeEnhancers = (window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()) || compose
 
